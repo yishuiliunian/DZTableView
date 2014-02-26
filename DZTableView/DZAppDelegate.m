@@ -7,6 +7,7 @@
 //
 
 #import "DZAppDelegate.h"
+#import "DZTypesViewController.h"
 
 @implementation DZAppDelegate
 
@@ -15,6 +16,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [DZTypesViewController new];
     [self.window makeKeyAndVisible];
     return YES;
 }

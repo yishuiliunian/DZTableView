@@ -19,6 +19,29 @@
 		65B90AE718BE090F0074447A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B90ACF18BE090F0074447A /* UIKit.framework */; };
 		65B90AEF18BE090F0074447A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65B90AED18BE090F0074447A /* InfoPlist.strings */; };
 		65B90AF118BE090F0074447A /* DZTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B90AF018BE090F0074447A /* DZTableViewTests.m */; };
+		65B90B1118BE2F470074447A /* DZCellActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B90AFC18BE2F470074447A /* DZCellActionItem.m */; };
+		65B90B1218BE2F470074447A /* DZCellActionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B90AFE18BE2F470074447A /* DZCellActionsView.m */; };
+		65B90B1318BE2F470074447A /* DZInputCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B90B0018BE2F470074447A /* DZInputCellView.m */; };
+		65B90B1418BE2F470074447A /* DZPullDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B90B0318BE2F470074447A /* DZPullDownView.m */; };
+		65B90B1518BE2F470074447A /* DZSawtoothView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B90B0518BE2F470074447A /* DZSawtoothView.m */; };
+		65B90B1618BE2F470074447A /* DZSeparationLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B90B0718BE2F470074447A /* DZSeparationLine.m */; };
+		65B90B1718BE2F470074447A /* DZTableView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 65B90B0918BE2F470074447A /* DZTableView.mm */; };
+		65B90B1818BE2F470074447A /* DZTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B90B0C18BE2F470074447A /* DZTableViewCell.m */; };
+		65B90B1918BE2F470074447A /* DZTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B90B0F18BE2F470074447A /* DZTableViewController.m */; };
+		65B90B1D18BE2FB00074447A /* DZProgramDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B90B1C18BE2FB00074447A /* DZProgramDefines.m */; };
+		65B90B2C18BE304A0074447A /* DZDirection.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B90B2018BE304A0074447A /* DZDirection.m */; };
+		65B90B2D18BE304A0074447A /* DZGeometryTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B90B2218BE304A0074447A /* DZGeometryTools.m */; };
+		65B90B2E18BE304A0074447A /* DZSendSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B90B2418BE304A0074447A /* DZSendSelector.m */; };
+		65B90B2F18BE304A0074447A /* UIColor+DZColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B90B2718BE304A0074447A /* UIColor+DZColor.m */; };
+		65B90B3018BE304A0074447A /* UIView+AddTaps.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B90B2918BE304A0074447A /* UIView+AddTaps.m */; };
+		65B90B3118BE304A0074447A /* UIView+Shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B90B2B18BE304A0074447A /* UIView+Shadow.m */; };
+		65B90B3518BE30850074447A /* DZDevices.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B90B3418BE30850074447A /* DZDevices.m */; };
+		65B90B3818BE30C00074447A /* NSString+WizString.mm in Sources */ = {isa = PBXBuildFile; fileRef = 65B90B3718BE30C00074447A /* NSString+WizString.mm */; };
+		65B90B3B18BE30E50074447A /* UIDeviceHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B90B3A18BE30E50074447A /* UIDeviceHardware.m */; };
+		65B90B3E18BE31090074447A /* HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B90B3D18BE31090074447A /* HexColor.m */; };
+		65B90B4218BE32150074447A /* DZTypesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B90B4118BE32150074447A /* DZTypesViewController.m */; };
+		65B90B4618BE326B0074447A /* DZTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B90B4418BE326B0074447A /* DZTypeCell.m */; };
+		65B90B4718BE326B0074447A /* number_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B90B4518BE326B0074447A /* number_bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +71,57 @@
 		65B90AEC18BE090F0074447A /* DZTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DZTableViewTests-Info.plist"; sourceTree = "<group>"; };
 		65B90AEE18BE090F0074447A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		65B90AF018BE090F0074447A /* DZTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZTableViewTests.m; sourceTree = "<group>"; };
+		65B90AFB18BE2F470074447A /* DZCellActionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZCellActionItem.h; sourceTree = "<group>"; };
+		65B90AFC18BE2F470074447A /* DZCellActionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZCellActionItem.m; sourceTree = "<group>"; };
+		65B90AFD18BE2F470074447A /* DZCellActionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZCellActionsView.h; sourceTree = "<group>"; };
+		65B90AFE18BE2F470074447A /* DZCellActionsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZCellActionsView.m; sourceTree = "<group>"; };
+		65B90AFF18BE2F470074447A /* DZInputCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZInputCellView.h; sourceTree = "<group>"; };
+		65B90B0018BE2F470074447A /* DZInputCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZInputCellView.m; sourceTree = "<group>"; };
+		65B90B0118BE2F470074447A /* DZPullDownDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZPullDownDelegate.h; sourceTree = "<group>"; };
+		65B90B0218BE2F470074447A /* DZPullDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZPullDownView.h; sourceTree = "<group>"; };
+		65B90B0318BE2F470074447A /* DZPullDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZPullDownView.m; sourceTree = "<group>"; };
+		65B90B0418BE2F470074447A /* DZSawtoothView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZSawtoothView.h; sourceTree = "<group>"; };
+		65B90B0518BE2F470074447A /* DZSawtoothView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZSawtoothView.m; sourceTree = "<group>"; };
+		65B90B0618BE2F470074447A /* DZSeparationLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZSeparationLine.h; sourceTree = "<group>"; };
+		65B90B0718BE2F470074447A /* DZSeparationLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZSeparationLine.m; sourceTree = "<group>"; };
+		65B90B0818BE2F470074447A /* DZTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZTableView.h; sourceTree = "<group>"; };
+		65B90B0918BE2F470074447A /* DZTableView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DZTableView.mm; sourceTree = "<group>"; };
+		65B90B0A18BE2F470074447A /* DZTableViewActionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZTableViewActionDelegate.h; sourceTree = "<group>"; };
+		65B90B0B18BE2F470074447A /* DZTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZTableViewCell.h; sourceTree = "<group>"; };
+		65B90B0C18BE2F470074447A /* DZTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZTableViewCell.m; sourceTree = "<group>"; };
+		65B90B0D18BE2F470074447A /* DZTableViewCell_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZTableViewCell_private.h; sourceTree = "<group>"; };
+		65B90B0E18BE2F470074447A /* DZTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZTableViewController.h; sourceTree = "<group>"; };
+		65B90B0F18BE2F470074447A /* DZTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZTableViewController.m; sourceTree = "<group>"; };
+		65B90B1018BE2F470074447A /* DZTableViewSourceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZTableViewSourceDelegate.h; sourceTree = "<group>"; };
+		65B90B1B18BE2FB00074447A /* DZProgramDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZProgramDefines.h; sourceTree = "<group>"; };
+		65B90B1C18BE2FB00074447A /* DZProgramDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZProgramDefines.m; sourceTree = "<group>"; };
+		65B90B1F18BE304A0074447A /* DZDirection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZDirection.h; sourceTree = "<group>"; };
+		65B90B2018BE304A0074447A /* DZDirection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZDirection.m; sourceTree = "<group>"; };
+		65B90B2118BE304A0074447A /* DZGeometryTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZGeometryTools.h; sourceTree = "<group>"; };
+		65B90B2218BE304A0074447A /* DZGeometryTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZGeometryTools.m; sourceTree = "<group>"; };
+		65B90B2318BE304A0074447A /* DZSendSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZSendSelector.h; sourceTree = "<group>"; };
+		65B90B2418BE304A0074447A /* DZSendSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZSendSelector.m; sourceTree = "<group>"; };
+		65B90B2518BE304A0074447A /* DZUITools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZUITools.h; sourceTree = "<group>"; };
+		65B90B2618BE304A0074447A /* UIColor+DZColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DZColor.h"; sourceTree = "<group>"; };
+		65B90B2718BE304A0074447A /* UIColor+DZColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DZColor.m"; sourceTree = "<group>"; };
+		65B90B2818BE304A0074447A /* UIView+AddTaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AddTaps.h"; sourceTree = "<group>"; };
+		65B90B2918BE304A0074447A /* UIView+AddTaps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AddTaps.m"; sourceTree = "<group>"; };
+		65B90B2A18BE304A0074447A /* UIView+Shadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Shadow.h"; sourceTree = "<group>"; };
+		65B90B2B18BE304A0074447A /* UIView+Shadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Shadow.m"; sourceTree = "<group>"; };
+		65B90B3318BE30850074447A /* DZDevices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZDevices.h; sourceTree = "<group>"; };
+		65B90B3418BE30850074447A /* DZDevices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZDevices.m; sourceTree = "<group>"; };
+		65B90B3618BE30C00074447A /* NSString+WizString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WizString.h"; sourceTree = "<group>"; };
+		65B90B3718BE30C00074447A /* NSString+WizString.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSString+WizString.mm"; sourceTree = "<group>"; };
+		65B90B3918BE30E50074447A /* UIDeviceHardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDeviceHardware.h; sourceTree = "<group>"; };
+		65B90B3A18BE30E50074447A /* UIDeviceHardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDeviceHardware.m; sourceTree = "<group>"; };
+		65B90B3C18BE31090074447A /* HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexColor.h; sourceTree = "<group>"; };
+		65B90B3D18BE31090074447A /* HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexColor.m; sourceTree = "<group>"; };
+		65B90B3F18BE31330074447A /* DZAnimationDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZAnimationDefines.h; sourceTree = "<group>"; };
+		65B90B4018BE32150074447A /* DZTypesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZTypesViewController.h; sourceTree = "<group>"; };
+		65B90B4118BE32150074447A /* DZTypesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZTypesViewController.m; sourceTree = "<group>"; };
+		65B90B4318BE326B0074447A /* DZTypeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZTypeCell.h; sourceTree = "<group>"; };
+		65B90B4418BE326B0074447A /* DZTypeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZTypeCell.m; sourceTree = "<group>"; };
+		65B90B4518BE326B0074447A /* number_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number_bg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +181,15 @@
 		65B90AD118BE090F0074447A /* DZTableView */ = {
 			isa = PBXGroup;
 			children = (
+				65B90B4318BE326B0074447A /* DZTypeCell.h */,
+				65B90B4418BE326B0074447A /* DZTypeCell.m */,
+				65B90B4518BE326B0074447A /* number_bg.png */,
+				65B90B4018BE32150074447A /* DZTypesViewController.h */,
+				65B90B4118BE32150074447A /* DZTypesViewController.m */,
+				65B90B3218BE30850074447A /* Devices */,
+				65B90B1E18BE304A0074447A /* UITools */,
+				65B90B1A18BE2FB00074447A /* Programbase */,
+				65B90AFA18BE2F470074447A /* TableView */,
 				65B90ADA18BE090F0074447A /* DZAppDelegate.h */,
 				65B90ADB18BE090F0074447A /* DZAppDelegate.m */,
 				65B90ADD18BE090F0074447A /* Images.xcassets */,
@@ -142,6 +225,80 @@
 				65B90AED18BE090F0074447A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65B90AFA18BE2F470074447A /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				65B90AFB18BE2F470074447A /* DZCellActionItem.h */,
+				65B90AFC18BE2F470074447A /* DZCellActionItem.m */,
+				65B90AFD18BE2F470074447A /* DZCellActionsView.h */,
+				65B90AFE18BE2F470074447A /* DZCellActionsView.m */,
+				65B90AFF18BE2F470074447A /* DZInputCellView.h */,
+				65B90B0018BE2F470074447A /* DZInputCellView.m */,
+				65B90B0118BE2F470074447A /* DZPullDownDelegate.h */,
+				65B90B0218BE2F470074447A /* DZPullDownView.h */,
+				65B90B0318BE2F470074447A /* DZPullDownView.m */,
+				65B90B0418BE2F470074447A /* DZSawtoothView.h */,
+				65B90B0518BE2F470074447A /* DZSawtoothView.m */,
+				65B90B0618BE2F470074447A /* DZSeparationLine.h */,
+				65B90B0718BE2F470074447A /* DZSeparationLine.m */,
+				65B90B0818BE2F470074447A /* DZTableView.h */,
+				65B90B0918BE2F470074447A /* DZTableView.mm */,
+				65B90B0A18BE2F470074447A /* DZTableViewActionDelegate.h */,
+				65B90B0B18BE2F470074447A /* DZTableViewCell.h */,
+				65B90B0C18BE2F470074447A /* DZTableViewCell.m */,
+				65B90B0D18BE2F470074447A /* DZTableViewCell_private.h */,
+				65B90B0E18BE2F470074447A /* DZTableViewController.h */,
+				65B90B0F18BE2F470074447A /* DZTableViewController.m */,
+				65B90B1018BE2F470074447A /* DZTableViewSourceDelegate.h */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		65B90B1A18BE2FB00074447A /* Programbase */ = {
+			isa = PBXGroup;
+			children = (
+				65B90B1B18BE2FB00074447A /* DZProgramDefines.h */,
+				65B90B1C18BE2FB00074447A /* DZProgramDefines.m */,
+			);
+			path = Programbase;
+			sourceTree = "<group>";
+		};
+		65B90B1E18BE304A0074447A /* UITools */ = {
+			isa = PBXGroup;
+			children = (
+				65B90B3F18BE31330074447A /* DZAnimationDefines.h */,
+				65B90B3C18BE31090074447A /* HexColor.h */,
+				65B90B3D18BE31090074447A /* HexColor.m */,
+				65B90B1F18BE304A0074447A /* DZDirection.h */,
+				65B90B2018BE304A0074447A /* DZDirection.m */,
+				65B90B2118BE304A0074447A /* DZGeometryTools.h */,
+				65B90B2218BE304A0074447A /* DZGeometryTools.m */,
+				65B90B2318BE304A0074447A /* DZSendSelector.h */,
+				65B90B2418BE304A0074447A /* DZSendSelector.m */,
+				65B90B2518BE304A0074447A /* DZUITools.h */,
+				65B90B2618BE304A0074447A /* UIColor+DZColor.h */,
+				65B90B2718BE304A0074447A /* UIColor+DZColor.m */,
+				65B90B2818BE304A0074447A /* UIView+AddTaps.h */,
+				65B90B2918BE304A0074447A /* UIView+AddTaps.m */,
+				65B90B2A18BE304A0074447A /* UIView+Shadow.h */,
+				65B90B2B18BE304A0074447A /* UIView+Shadow.m */,
+			);
+			path = UITools;
+			sourceTree = "<group>";
+		};
+		65B90B3218BE30850074447A /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				65B90B3918BE30E50074447A /* UIDeviceHardware.h */,
+				65B90B3A18BE30E50074447A /* UIDeviceHardware.m */,
+				65B90B3618BE30C00074447A /* NSString+WizString.h */,
+				65B90B3718BE30C00074447A /* NSString+WizString.mm */,
+				65B90B3318BE30850074447A /* DZDevices.h */,
+				65B90B3418BE30850074447A /* DZDevices.m */,
+			);
+			path = Devices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +377,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B90B4718BE326B0074447A /* number_bg.png in Resources */,
 				65B90AD618BE090F0074447A /* InfoPlist.strings in Resources */,
 				65B90ADE18BE090F0074447A /* Images.xcassets in Resources */,
 			);
@@ -240,8 +398,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B90B1218BE2F470074447A /* DZCellActionsView.m in Sources */,
+				65B90B2F18BE304A0074447A /* UIColor+DZColor.m in Sources */,
+				65B90B2C18BE304A0074447A /* DZDirection.m in Sources */,
+				65B90B3518BE30850074447A /* DZDevices.m in Sources */,
+				65B90B1D18BE2FB00074447A /* DZProgramDefines.m in Sources */,
+				65B90B1818BE2F470074447A /* DZTableViewCell.m in Sources */,
+				65B90B1618BE2F470074447A /* DZSeparationLine.m in Sources */,
+				65B90B2D18BE304A0074447A /* DZGeometryTools.m in Sources */,
+				65B90B4218BE32150074447A /* DZTypesViewController.m in Sources */,
+				65B90B1418BE2F470074447A /* DZPullDownView.m in Sources */,
+				65B90B3E18BE31090074447A /* HexColor.m in Sources */,
+				65B90B1518BE2F470074447A /* DZSawtoothView.m in Sources */,
+				65B90B1718BE2F470074447A /* DZTableView.mm in Sources */,
+				65B90B1318BE2F470074447A /* DZInputCellView.m in Sources */,
+				65B90B2E18BE304A0074447A /* DZSendSelector.m in Sources */,
+				65B90B3818BE30C00074447A /* NSString+WizString.mm in Sources */,
 				65B90ADC18BE090F0074447A /* DZAppDelegate.m in Sources */,
+				65B90B3B18BE30E50074447A /* UIDeviceHardware.m in Sources */,
 				65B90AD818BE090F0074447A /* main.m in Sources */,
+				65B90B3118BE304A0074447A /* UIView+Shadow.m in Sources */,
+				65B90B1918BE2F470074447A /* DZTableViewController.m in Sources */,
+				65B90B1118BE2F470074447A /* DZCellActionItem.m in Sources */,
+				65B90B3018BE304A0074447A /* UIView+AddTaps.m in Sources */,
+				65B90B4618BE326B0074447A /* DZTypeCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
