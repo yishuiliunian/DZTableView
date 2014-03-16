@@ -28,7 +28,7 @@
 
 #一、[UIKit提供的基础](articles/Chapter0/summary.md)
 ##1. [几何布局框架](articles/Chapter0/gemotry.md)
-##2. [Z-Order布局](articles/Chapter0/summary.md)
+##2. [Z-Order布局](articles/Chapter0/zorder.md)
 ##3. [如何布局](articles/Chapter0/howlayout.md)
 ##4. [触摸事件响应相关函数](articles/Chapter0/touch.md)
 ##5. [UISCrollView详解](articles/Chapter0/scrollview.md)
