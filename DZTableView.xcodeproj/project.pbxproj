@@ -42,6 +42,7 @@
 		65B90B4218BE32150074447A /* DZTypesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B90B4118BE32150074447A /* DZTypesViewController.m */; };
 		65B90B4618BE326B0074447A /* DZTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B90B4418BE326B0074447A /* DZTypeCell.m */; };
 		65B90B4718BE326B0074447A /* number_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B90B4518BE326B0074447A /* number_bg.png */; };
+		65B90BAA18BF59C00074447A /* UIView+RedPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B90BA918BF59C00074447A /* UIView+RedPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +123,8 @@
 		65B90B4318BE326B0074447A /* DZTypeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZTypeCell.h; sourceTree = "<group>"; };
 		65B90B4418BE326B0074447A /* DZTypeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZTypeCell.m; sourceTree = "<group>"; };
 		65B90B4518BE326B0074447A /* number_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number_bg.png; sourceTree = "<group>"; };
+		65B90BA818BF59C00074447A /* UIView+RedPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RedPoint.h"; sourceTree = "<group>"; };
+		65B90BA918BF59C00074447A /* UIView+RedPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RedPoint.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +195,8 @@
 				65B90AFA18BE2F470074447A /* TableView */,
 				65B90ADA18BE090F0074447A /* DZAppDelegate.h */,
 				65B90ADB18BE090F0074447A /* DZAppDelegate.m */,
+				65B90BA818BF59C00074447A /* UIView+RedPoint.h */,
+				65B90BA918BF59C00074447A /* UIView+RedPoint.m */,
 				65B90ADD18BE090F0074447A /* Images.xcassets */,
 				65B90AD218BE090F0074447A /* Supporting Files */,
 			);
@@ -409,6 +414,7 @@
 				65B90B4218BE32150074447A /* DZTypesViewController.m in Sources */,
 				65B90B1418BE2F470074447A /* DZPullDownView.m in Sources */,
 				65B90B3E18BE31090074447A /* HexColor.m in Sources */,
+				65B90BAA18BF59C00074447A /* UIView+RedPoint.m in Sources */,
 				65B90B1518BE2F470074447A /* DZSawtoothView.m in Sources */,
 				65B90B1718BE2F470074447A /* DZTableView.mm in Sources */,
 				65B90B1318BE2F470074447A /* DZInputCellView.m in Sources */,
@@ -624,6 +630,7 @@
 				65B90AF618BE090F0074447A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65B90AF718BE090F0074447A /* Build configuration list for PBXNativeTarget "DZTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -632,6 +639,7 @@
 				65B90AF918BE090F0074447A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

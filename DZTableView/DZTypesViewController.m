@@ -34,6 +34,7 @@
 }
 - (void)viewDidLoad
 {
+    
     [super viewDidLoad];
     self.tableView.showsVerticalScrollIndicator = NO;
     self.tableView.showsHorizontalScrollIndicator = NO;
@@ -53,7 +54,7 @@
 
 - (void) reloadAllData
 {
-    _timeTypes = [@[@"a", @"b", @"c"] mutableCopy];
+    _timeTypes = [@[@"a"] mutableCopy];
     [self.tableView reloadData];
 }
 

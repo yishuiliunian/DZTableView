@@ -189,7 +189,6 @@
         _isSelected = isSelected;
         [self setNeedsLayout];
     }
-    
 }
 
 - (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
