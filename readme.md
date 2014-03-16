@@ -69,7 +69,7 @@ UIView* aView = [UIView new];
 aView.frame = CGRectMake(0, 0 , 100 ,100)
 ```
 在它的父类的坐标系中展示如下图：
-![image](file:///Volumes/DATA/Users/stonedong/Desktop/zuobiaoxi.jpg)
+![image](./images/geometry.jpg)
 
 我们能够发现红色的View的frame信息所描述的几何位置，其实是其在父View坐标系中的绝对位置。死死的写在那里的。所以像UIKit这样的布局模型又叫绝对布局模型，如果你用过jave的Swing或者c++的QT，你可能会觉得这种绝对布局模型好麻烦，好啰嗦。没有布局管理器的概念，什么都是绝对的。但是只能说各有各的好处把。QT之类的有布局管理器的开发复杂界面的确方便，但是像在iphone这样的手机设备上，机器屏幕有限、设备性能有限，用绝对布局模型还是比较合适。苹果在IOS5之后也引入了一些相对布局的东西（autolayout）正好这里有篇文章是说其性能的[Auto Layout Performance on iOS](http://floriankugler.com/blog/2013/4/21/auto-layout-performance-on-ios)。读过之后你能发现自动布局在复杂界面情况下的性能的确比较差的。所以像UIKit这种比较原始的绝对布局在性能上还是有优势的。
 
@@ -293,7 +293,7 @@ UITableView的父类是UIScrollView。当然我们要实现一个TableView也需
 
 先看个效果图：
 
-![image](file:///Volumes/DATA/Users/stonedong/Desktop/table.png)
+![image](./images/aim.jpeg)
 
 
 先说一下我们都实现了些什么东西：
@@ -307,7 +307,7 @@ UITableView的父类是UIScrollView。当然我们要实现一个TableView也需
 
 ##解释一下整个UI的层次架构
 下面这张图大概说明了整个DZTableView的View的结构树。
-![image](file:///Volumes/DATA/Users/stonedong/Desktop/tableViewUIStruct.jpg)
+![image](./images/tableView_tree_3d.jpg)
 
 整个的TableView分成两个主要的组成部分:DZTableView和DZTableViewCell。这个结构和UITableView的结构是类似的。
 
@@ -396,7 +396,7 @@ _cellHeights存储了所有cell的高度，而_cellYOffsets存储了每一个cel
 享元模式可以理解成，当细粒度的对象数量特别多的时候运行的代价会相当大，此时运用共享的技术来大大降低运行成本。比较突出的表现就是内容有效的抑制内存抖动的情况发生，还有控制内存增长。它的英文名字是flyweight，让重量飞起来。哈哈。名副其实，在一个TableView中Cell是一个可重复使用的元素，而且往往需要布局的cell数量很大。如果每次使用都创建一个Cell对象，系统的内容抖动会非常明显，而且系统的内存消耗也是比较大的。突然一想，享元模式只是给对象实例共享提供了一个比较霸道的名字吧。
 
 一个典型的享元模式的UML图示例如下：
-![image](file:///Volumes/DATA/Users/stonedong/Desktop/flightweight.jpg)
+![image](./images/flightWeight)
 
 而在DZTableView中的实现中，享元模式中Cell的实例的存储和共享主要是在tableView中完成的。
 
