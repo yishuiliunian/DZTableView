@@ -42,8 +42,8 @@
 ##4. [响应和处理事件](articles/Chapter1/event.md)
 ##5. [在DZTableViewCell上扩展功能](articles/Chapter1/cell.md)
 ##6. [接口和数据获取](articles/Chapter1/interface.md)
-
-#三、[DZTableView的可扩展性探讨](articles/Chapter2/summary.md)
+#三、[视图控制器DZTableViewController](articles/Chapter2/summary.md)
+#四、[DZTableView的可扩展性探讨](articles/Chapter3/summary.md)
 
 
 
