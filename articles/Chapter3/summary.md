@@ -1,4 +1,8 @@
 #DZTableView的可扩展性探讨
+
+##1. [什么是可扩展性](./topic.md)
+
+
 既然我们要实现一个类似于UITableView一样非常通用的组件，也就要求DZTableView的可扩展性就要好一点。这包括：
 
 1. 属性的可配置型
