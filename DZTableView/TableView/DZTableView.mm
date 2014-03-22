@@ -269,13 +269,20 @@ typedef vector<float>   DZCellHeightVector;
         deleteItem.backgroundColor = [UIColor redColor];
         [deleteItem addTarget:self action:@selector(deleteCellOfItem:) forControlEvents:UIControlEventTouchUpInside];
         [deleteItem setTitle:@"删除" forState:UIControlStateNormal];
-        deleteItem.edgeInset = UIEdgeInsetsMake(0, 10, 0, 260);
+        deleteItem.edgeInset = UIEdgeInsetsMake(0, 10, 0, 240);
         DZCellActionItem* editItem = [DZCellActionItem buttonWithType:UIButtonTypeCustom];
         editItem.edgeInset = UIEdgeInsetsMake(0, 80, 0, 180);
         editItem.backgroundColor = [UIColor greenColor];
         [editItem setTitle:@"编辑" forState:UIControlStateNormal];
         [editItem addTarget:self action:@selector(editCellOfItem:) forControlEvents:UIControlEventTouchUpInside];
-        cell.actionsView.items = @[deleteItem,editItem ];
+        
+
+        DZCellActionItem* item3 = [DZCellActionItem buttonWithType:UIButtonTypeCustom];
+        item3.edgeInset = UIEdgeInsetsMake(0, 190, 0, 100);
+        item3.backgroundColor = [UIColor greenColor];
+        [item3 setTitle:@"编辑" forState:UIControlStateNormal];
+        [item3 addTarget:self action:@selector(editCellOfItem:) forControlEvents:UIControlEventTouchUpInside];
+        cell.actionsView.items = @[deleteItem,editItem ,item3];
     }
     return cell;
 }

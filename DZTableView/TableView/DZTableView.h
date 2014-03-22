@@ -15,6 +15,7 @@
 
 @interface DZTableView : UIScrollView
 DEFINE_PROPERTY_STRONG(UIColor*, gradientColor);
+
 @property (nonatomic, strong) UIImageView* backgroudView;
 @property (nonatomic, strong, readonly) NSArray* visibleCells;
 @property (nonatomic, weak) id<DZTableViewActionDelegate> actionDelegate;
