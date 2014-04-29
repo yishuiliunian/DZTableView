@@ -32,15 +32,18 @@
         _tableView.dataSource = self;
         _tableView.delegate = self;
         _tableView.actionDelegate = self;
-        DZPullDownView* pullView = [[DZPullDownView alloc] init];
-        pullView.height = 44;
-        pullView.delegate = self;
-        _tableView.topPullDownView = pullView;
     }
     return _tableView;
 }
 
-
+- (void) loadView
+{
+    DZTableView* tableView = self.tableView;
+    DZPullDownView* pullView = [[DZPullDownView alloc] init];
+    pullView.height = 44;
+    pullView.delegate = self;
+    tableView.topPullDownView = pullView;
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];

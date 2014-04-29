@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		656AAADB18FE27C800F41527 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656AAADA18FE27C800F41527 /* Storyboard.storyboard */; };
 		65B90ACC18BE090F0074447A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B90ACB18BE090F0074447A /* Foundation.framework */; };
 		65B90ACE18BE090F0074447A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B90ACD18BE090F0074447A /* CoreGraphics.framework */; };
 		65B90AD018BE090F0074447A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B90ACF18BE090F0074447A /* UIKit.framework */; };
@@ -56,6 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		656AAADA18FE27C800F41527 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		65B90AC818BE090F0074447A /* DZTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B90ACB18BE090F0074447A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		65B90ACD18BE090F0074447A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -187,6 +189,7 @@
 				65B90B4318BE326B0074447A /* DZTypeCell.h */,
 				65B90B4418BE326B0074447A /* DZTypeCell.m */,
 				65B90B4518BE326B0074447A /* number_bg.png */,
+				656AAADA18FE27C800F41527 /* Storyboard.storyboard */,
 				65B90B4018BE32150074447A /* DZTypesViewController.h */,
 				65B90B4118BE32150074447A /* DZTypesViewController.m */,
 				65B90B3218BE30850074447A /* Devices */,
@@ -383,6 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65B90B4718BE326B0074447A /* number_bg.png in Resources */,
+				656AAADB18FE27C800F41527 /* Storyboard.storyboard in Resources */,
 				65B90AD618BE090F0074447A /* InfoPlist.strings in Resources */,
 				65B90ADE18BE090F0074447A /* Images.xcassets in Resources */,
 			);
