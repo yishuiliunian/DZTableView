@@ -1,5 +1,7 @@
 
 ##Cell的重用
+
+![](images/TableView datasource.png)
 在使用UITableView的时候我们应该熟悉这样的接口：
 
 ```
