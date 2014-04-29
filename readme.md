@@ -29,19 +29,8 @@
 
 
 #一、[UIKit提供的基础](articles/Chapter0/summary.md)
-##1. [几何布局框架](articles/Chapter0/gemotry.md)
-##2. [Z-Order布局](articles/Chapter0/zorder.md)
-##3. [如何布局](articles/Chapter0/howlayout.md)
-##4. [触摸事件响应相关函数](articles/Chapter0/touch.md)
-##5. [UISCrollView详解](articles/Chapter0/scrollview.md)
 
 #二、[实现TableView](articles/Chapter1/summary.md)
-##1. [解释一下整个UI的层次架构](articles/Chapter1/gemotry.md)
-##2. [子类化UIScrollView实现对Cell的布局](articles/Chapter1/subclassScrollView.md)
-##3. [Cell的重用](articles/Chapter1/shareCell.md)
-##4. [响应和处理事件](articles/Chapter1/event.md)
-##5. [在DZTableViewCell上扩展功能](articles/Chapter1/cell.md)
-##6. [接口和数据获取](articles/Chapter1/interface.md)
 #三、[视图控制器DZTableViewController](articles/Chapter2/summary.md)
 #四、[DZTableView的可扩展性探讨](articles/Chapter3/summary.md)
 
