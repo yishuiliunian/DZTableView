@@ -10,5 +10,5 @@
 
 ##1. [UIKit概述](uikit.md)
 ##2. [布局](./layout/layout.md)
-##3. [触摸事件响应相关函数](touch.md)
+##3. [交互](interaction/summary.md)
 ##4. [UISCrollView详解](scrollview.md)
