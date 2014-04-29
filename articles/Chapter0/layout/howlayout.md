@@ -1,5 +1,7 @@
 #如何布局
 
+##布局的时候我们都需要做些什么事情
+布局顾名思义，就是确定一个View的位置。也就是说我们要在布局中做的事情用一句话说就是：确定UIView的frame属性的值。给每一个UIView和其子类的实例确定frame的属性值。
 
 ##1、 初始化函数 ```- (id)initWithFrame:(CGRect)aRect```
 
@@ -81,3 +83,5 @@ You should not call this method directly. If you want to force a layout update, 
 这个就看功能需要了，不过有一点是肯定的就是不要直接调用layoutSubviews函数。UIKit和runtime是捆绑很密切的，apple为了防止界面重新布局过于频繁，所以只在runloop合适的实际来做布局的工作。里面具体的细节，可以google。
 
 一般你需要重新布局的时候调用```setNeedsLayout```标记一下，“我需要重新布局了”。就行了，系统会在下次runloop合适的时机给你布局。
+
+![UpdateCircle](imgs/update_circle.png)
