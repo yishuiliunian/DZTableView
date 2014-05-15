@@ -38,6 +38,7 @@
 
 - (void) loadView
 {
+    [super loadView];
     DZTableView* tableView = self.tableView;
     DZPullDownView* pullView = [[DZPullDownView alloc] init];
     pullView.height = 44;
