@@ -310,8 +310,9 @@ typedef vector<float>   DZCellHeightVector;
 }
 - (void) reloadData
 {
-    NSCAssert(_dataSourceReponse.funcCellAtRow, @"dztalbeview %@ delegate %@ not response to selector numberOfRowsInDZTableView: ", self, _dataSource);
+    NSCAssert(_dataSourceReponse.funcNumberOfRows, @"dztalbeview %@ delegate %@ not response to selector numberOfRowsInDZTableView: ", self, _dataSource);
     NSCAssert(_dataSourceReponse.funcCellAtRow, @"dztalbeview %@ delegate %@ not response to selector dzTableView:cellAtRow: ", self, _dataSource);
+    
 
     [self reduceContentSize];
     [self layoutNeedDisplayCells];
