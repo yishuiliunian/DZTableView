@@ -95,6 +95,9 @@
 //}
 - (void) handlePanGestureRecognizer:(UIPanGestureRecognizer*)prcg
 {
+    if ([(UIScrollView *)self.superview isDragging]) {
+        return;
+    }
     CGPoint point = [prcg locationInView:self];
     if (prcg.state == UIGestureRecognizerStateBegan) {
         _startPoint  = point;
