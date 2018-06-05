@@ -1,9 +1,9 @@
-##接口和数据获取
+## 接口和数据获取
 通过上面的阐述我们已经把DZTableView的框架搭起来了，实现了一个TableView的布局方式，还有cell的重用。但是还有一个非常关键的问题，tableView布局信息的数据怎么来，还有我们应该向外给提供者调用什么样的接口。
 
 这个问题，貌似苹果已经做得很好了。而DZTableView要做的就是尽可能的让接口和苹果的保持一致，这样对于使用者而言，没有太大的学习成本。
 
-###数据获取
+### 数据获取
 
 ```
 @class DZTableView;
@@ -16,7 +16,7 @@
 @end
 ```
 
-###点击等事件响应
+### 点击等事件响应
 
 ```
 @class DZTableView;
@@ -30,7 +30,7 @@
 @end
 
 ```
-###DZTableView的成员方法
+### DZTableView的成员方法
 
 ```
 - (DZTableViewCell*) dequeueDZTalbeViewCellForIdentifiy:(NSString*)identifiy;
