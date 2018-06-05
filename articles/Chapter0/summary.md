@@ -1,4 +1,4 @@
-#UIKit给我们提供的基础
+# UIKit给我们提供的基础
 
 又重复了一遍，工欲善其事必先利其器。那么我们就看一下UIKit为我们提供了那些好用的工具让我们来实现一个TableView（当然不是子类化一个UITableView这么简单）。
 
@@ -8,7 +8,7 @@
 
 在研究的过程中，我们也会探讨一些UIKit在设计这个图形界面库的时候一些设计动机。但是，这里必须提醒读者的是，很多探讨只是我和一些朋友探讨的结果，虽然在我们看来是对的。但是可能苹果当初并不是这么想的，我还是写出来，也是做了一些思想斗争的，毕竟谁都想只把大家都认为是正确的东西提供给大家。我这样做是为了给读者提供另一种视角来理解UIKit这个非常牛的库。其中不对的地方，当然非常欢迎各位指正。
 
-##1. [UIKit概述](uikit.md)
-##2. [布局](./layout/layout.md)
-##3. [交互](interaction/summary.md)
-##4. [UISCrollView详解](scrollview.md)
+## 1. [UIKit概述](uikit.md)
+## 2. [布局](./layout/layout.md)
+## 3. [交互](interaction/summary.md)
+## 4. [UISCrollView详解](scrollview.md)
