@@ -8,8 +8,8 @@
 什么是窗口和视图？
 
 和Mac OS X一样，iPhone OS通过窗口和视图在屏幕上展现图形内容。虽然窗口和视图对象之间在两个平台上有很多相似性，但是具体到每个平台上，它们的作用都有轻微的差别。
-###0. [视图和窗口架构](./architecture.md)
-###1. [UIWindow的作用](./window.md)
-###2. [UIView的作用](./uiview.md)
-###3. [UIKit视图类](./classes.md)
-###4. [试图控制器](./viewcontroller.md)
+### 0. [视图和窗口架构](./architecture.md)
+### 1. [UIWindow的作用](./window.md)
+### 2. [UIView的作用](./uiview.md)
+### 3. [UIKit视图类](./classes.md)
+### 4. [试图控制器](./viewcontroller.md)
