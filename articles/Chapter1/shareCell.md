@@ -1,5 +1,5 @@
 
-##Cell的重用
+## Cell的重用
 
 ![](images/TableView datasource.png)
 在使用UITableView的时候我们应该熟悉这样的接口：
@@ -54,14 +54,14 @@
 ```
 
 我们分几种情况来说明一下在布局cell的时候cell的重用问题。
-###已经在界面上的cell
+### 已经在界面上的cell
 对于已经在界面的cell我们很明显没有必要去重新构建，甚至没有必要去数据源去要。直接获取到相应的cell就好了。
 
 ```
 DZTableViewCell* cell = [_visibleCellsMap objectForKey:@(rowIndex)];
 ```
 
-###没有在界面上的cell
+### 没有在界面上的cell
 对于没有在界面的cell，我们就需要去数据那里去要：
 
 ```
@@ -83,7 +83,7 @@ cell = [_dataSource dzTableView:self cellAtRow:rowIndex];
 }
 ```
 先去看看tableView中有没有可以重用的cell，有就用，没有就新建。但是tableView是怎么知道有可以重用的cell的呢。
-####DZTableView 可重用cell的cache
+#### DZTableView 可重用cell的cache
 首先我们看一下获取重用cell的函数：
 
 ```
@@ -129,7 +129,7 @@ cell = [_dataSource dzTableView:self cellAtRow:rowIndex];
 ```
 我们在布局完cell的时候，回去清理界面上无用的cell。同时把这些cell放入可重用cell的容器中。等待下次使用的时候，复用。
 
-####DZTableViewCell相关
+#### DZTableViewCell相关
 当然，如果只是DZTableView单方面的想去重用cell是不肯能的。我们需要对DZTableViewCell做一些处理，才能够让这套享元模式运转起来。上面的代码中我们已经看到了，我们为DZTableViewCell添加了一些属性:
 
 ```
