@@ -35,11 +35,13 @@
 言归正传。开始实现一个TableView。
 ![](articles/Chapter1/images/aim.jpeg)
 
-#一、[UIKit提供的基础](articles/Chapter0/summary.md)
+# 一、[UIKit提供的基础](articles/Chapter0/summary.md)
 
-#二、[实现TableView](articles/Chapter1/summary.md)
-#三、[视图控制器DZTableViewController](articles/Chapter2/summary.md)
-#四、[DZTableView的可扩展性探讨](articles/Chapter3/summary.md)
+# 二、[实现TableView](articles/Chapter1/summary.md)
+
+# 三、[视图控制器DZTableViewController](articles/Chapter2/summary.md)
+
+# 四、[DZTableView的可扩展性探讨](articles/Chapter3/summary.md)
 
 
 
