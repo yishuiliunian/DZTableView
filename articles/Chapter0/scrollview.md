@@ -1,4 +1,4 @@
-#UISCrollView详解
+# UISCrollView详解
 
 UITableView的父类是UIScrollView。当然我们要实现一个TableView也需要继承自UIScrollView，那么我们就需要看一下UIScrollView的一些属性和方法。
 
@@ -6,7 +6,7 @@ UITableView的父类是UIScrollView。当然我们要实现一个TableView也需
 
 
 
-##光栅化和组合
+## 光栅化和组合
 
 渲染过程的第一部分是众所周知的光栅化，光栅化简单的说就是产生一组绘图指令并且生成一张图片。比如绘制一个圆角矩形、带图片、标题居中的UIButtons。这些图片并没有被绘制到屏幕上去；取而代之的是，他们被自己的视图保持着留到下一个步骤用。
 
