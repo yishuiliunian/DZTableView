@@ -1,5 +1,6 @@
 《核心动画编程》的某个翻译版本把UIKit的布局模型翻译成了几何布局模型，这个词非常贴切，原始的英文是“struts and springs”。字面翻译就是结构和弹簧。其实说白了就是一种绝对布局模型，这种布局模型的核心数据就是一个对象的几何属性。所以翻译成几何布局模型还是比较贴切的。
-##1. [坐标系](coordinate.md)
-##2. [平面内布局](gemotry.md)
-##3. [Z-Order布局](zorder.md)
-##4. [如何布局](howlayout.md)
+
+## 1. [坐标系](coordinate.md)
+## 2. [平面内布局](gemotry.md)
+## 3. [Z-Order布局](zorder.md)
+## 4. [如何布局](howlayout.md)
